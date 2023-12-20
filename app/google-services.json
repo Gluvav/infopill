@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "889152673307",
+    "project_id": "infopill-tfg2023",
+    "firebase_url":  "https://infopill-tfg2023-default-rtdb.europe-west1.firebasedatabase.app",
+    "storage_bucket": "infopill-tfg2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889152673307:android:c9f6ba44654ec71a404abe",
+        "android_client_info": {
+          "package_name": "com.gluben.infopill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889152673307-mj1ks6n6nodopb33nbddedo325s5opoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP3uHHyN69yaCPxpeyMIIYdl1TD5cfFeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889152673307-mj1ks6n6nodopb33nbddedo325s5opoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889152673307:android:82386d95d8d8bc20404abe",
+        "android_client_info": {
+          "package_name": "com.gublen.infopill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889152673307-mj1ks6n6nodopb33nbddedo325s5opoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP3uHHyN69yaCPxpeyMIIYdl1TD5cfFeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889152673307-mj1ks6n6nodopb33nbddedo325s5opoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

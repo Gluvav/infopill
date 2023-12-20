@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InfoPill</string>
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="descriptionImg">AppLogo</string>
+    <string name="newPill">Add Medication</string>
+    <string name="pillList">View Medications</string>
+    <string name="pillListName">Medications</string>
+    <string name="exit">Exit</string>
+    <string name="logout">Logout</string>
+    <string name="emailPlaceholder">algo@algo.com</string>
+    <string name="passPlaceholder">password1234</string>
+    <string name="descr">If logging for the first time you will register, be careful with your credentials</string>
+    <string name="addingPills">Adding Pill Info</string>
+    <string name="addPill">Add Pill</string>
+    <string name="pillName">Medication name</string>
+    <string name="pillAmount">1000mg</string>
+    <string name="pillTimes">Breakfast and Diner</string>
+    <string name="pillObservations">Don\'t mix with alcohol</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Add pill</string>
+    <string name="goBack">go back</string>
+</resources>

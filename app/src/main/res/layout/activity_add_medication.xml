@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".AddMedication">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/addingPills"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pillName"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginBottom="172dp"
+        android:ems="10"
+        android:hint="@string/pillName"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/pillCuantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pillAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:hint="@string/pillAmount"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/pillCuantity"
+        app:layout_constraintEnd_toEndOf="@+id/pillName"
+        app:layout_constraintTop_toTopOf="@+id/pillName" />
+
+    <EditText
+        android:id="@+id/pillCuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/pillTimes"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/pillAmount"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pillDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="88dp"
+        android:ems="10"
+        android:hint="@string/pillObservations"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/sendAdd"
+        app:layout_constraintStart_toStartOf="@+id/pillCuantity"
+        app:layout_constraintTop_toTopOf="@+id/pillCuantity" />
+
+    <Button
+        android:id="@+id/sendAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="172dp"
+        android:text="@string/send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cancelAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toStartOf="@+id/pillDescription"
+        app:layout_constraintStart_toStartOf="@+id/pillDescription"
+        app:layout_constraintTop_toBottomOf="@+id/pillDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>
