@@ -33,6 +33,11 @@ public class AddMedication extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_medication);
+        //añadir otro campo para la patologia de la med
+        //alarma de la medicacion
+        //en lugar de antes de comer elegir una hora y cuantos dias dura la med
+        //forma de decir si se ha tomado la medicacion
+        //pagina de opciones modo oscuro/luz
 
         mAuth = FirebaseAuth.getInstance();
         user = mAuth.getCurrentUser();
