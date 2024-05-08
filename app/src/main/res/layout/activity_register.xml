@@ -9,39 +9,41 @@
 
     <EditText
         android:id="@+id/emailRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginBottom="488dp"
+        android:layout_width="234dp"
+        android:layout_height="65dp"
         android:ems="10"
         android:hint="@string/emailPlaceholder"
         android:inputType="textEmailAddress"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.286" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
 
     <EditText
         android:id="@+id/passRegister"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="284dp"
         android:ems="10"
         android:hint="@string/passPlaceholder"
         android:inputType="textPassword"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailRegister" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/registerBtn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
+        android:backgroundTint="@color/infoPillColor"
+        android:textColor="@color/white"
         android:text="@string/register"
+        android:textSize="46sp"
         app:layout_constraintEnd_toEndOf="@+id/passRegister"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/passRegister"
@@ -52,8 +54,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/infoPillColor"
+        android:textColor="@color/white"
         android:text="@string/exit"
+        android:textSize="46sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -62,8 +67,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/infoPillColor"
+        android:textColor="@color/white"
         android:text="@string/login"
+        android:textSize="46sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

@@ -3,4 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="backgroundColor">#fafafa</color>
+    <color name="infoPillColor">#2f5371</color>
 </resources>

@@ -105,7 +105,7 @@ public class Register extends AppCompatActivity {
         });
     }
 
-    //crea una entrada a la base de datos usando como clave el email sin caracteres especiales
+    //TODO: crea una entrada a la base de datos usando como clave el email sin caracteres especiales
     //TODO: arreglar el hecho de que elimina datos anteriores al ejecutarse
     //TODO: reemplazar por un usuario/email unicos
     public void createDatabaseEntryUser(String email){

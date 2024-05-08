@@ -11,7 +11,7 @@
         android:id="@+id/emailTextLogin"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="68dp"
         android:ems="10"
         android:hint="@string/emailPlaceholder"
         android:inputType="textEmailAddress"
@@ -50,18 +50,27 @@
         android:id="@+id/exitBtn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="264dp"
+        android:backgroundTint="@color/infoPillColor"
+        android:textColor="@color/white"
         android:text="@string/exit"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/loginBtn2"
-        app:layout_constraintTop_toBottomOf="@+id/loginBtn2" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn2"
+        app:layout_constraintVertical_bias="0.3" />
 
     <Button
         android:id="@+id/loginBtn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:backgroundTint="@color/infoPillColor"
+        android:textColor="@color/white"
         android:text="@string/login"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="@+id/passTextLogin"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="@+id/passTextLogin"
         app:layout_constraintTop_toBottomOf="@+id/passTextLogin" />
 
@@ -85,9 +94,14 @@
         android:id="@+id/registerBtn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:backgroundTint="@color/infoPillColor"
+        android:textColor="@color/white"
         android:text="@string/register"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/loginBtn2"
-        app:layout_constraintTop_toBottomOf="@+id/loginBtn2" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn2"
+        app:layout_constraintVertical_bias="0.3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
